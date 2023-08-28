@@ -1,0 +1,52 @@
+@import "../../../App.scss";
+
+.ColorBlocks {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 80px;
+}
+
+@mixin blockSizing {
+  width: 80px;
+  height: 80px;
+  border: 1px solid white;
+}
+
+.ColorStyleOne {
+  @include blockSizing();
+  background-color: $DarkGreen;
+}
+
+.ColorStyleTwo {
+  @include blockSizing();
+  background-color: $LighterGreen;
+}
+
+.ColorStyleThree {
+  @include blockSizing();
+  background-color: $DirtyBlue;
+}
+
+.ColorStyleFour {
+  @include blockSizing();
+  background-color: $White;
+}
+
+.ColorStyleFive {
+  @include blockSizing();
+  background-color: $LightBlue;
+}
+
+.Shadow {
+  width: 120px;
+  height: 64px;
+  background-color: $White;
+  box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.056),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.081),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.1),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.119),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.144),
+    100px 100px 80px rgba(0, 0, 0, 0.2);
+  @include Box();
+}

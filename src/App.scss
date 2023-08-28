@@ -1,0 +1,75 @@
+//Colors
+$DarkGreen: #05161a;
+$LighterGreen: #072e33;
+$DirtyBlue: #6da5c0;
+$White: #f3f3f3;
+$LightBlue: #0f969c;
+
+//Text
+h1 {
+  font-size: 46px;
+  font-weight: bold;
+  font-weight: bolder;
+  color: $DirtyBlue;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: $White;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: $DirtyBlue;
+}
+
+p {
+  font-size: 16px;
+  color: $White;
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+//Mixins
+@mixin Box {
+  border-radius: 20px;
+  // padding: 4vh;
+}
+::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #072e33;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #072e33;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #000000;
+}
+::-webkit-scrollbar-track {
+  background: #f3f3f3;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #eeeeee;
+}
+::-webkit-scrollbar-track:active {
+  background: #333333;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}

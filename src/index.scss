@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@100;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+@import "./App.scss";
+
+body {
+  margin: 0;
+  height: 96vh;
+  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  padding: 2vh;
+  background: $LighterGreen;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
